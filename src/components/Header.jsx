@@ -19,7 +19,7 @@ export default function Header({ activePage, setPage }) {
               {config.LOGO_URL ? (
 <img 
   src={config.LOGO_URL} 
-  alt="logo"
+  alt="company logo"
   style={{ 
     height: "60px",
     background: "white",
