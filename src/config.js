@@ -13,8 +13,9 @@ const config = {
   // ── Branding ─────────────────────────────────────────────────
   // Replace with your company name. Set LOGO_URL to "/logo.png"
   // (place file in /public) or a remote URL. null = icon logo.
-  COMPANY_NAME: "Your Company",
-  SYSTEM_TITLE: "Quality Visit Tracking System",
+ COMPANY_NAME: "Dsquares",
+SYSTEM_TITLE: "Quality Visit Audit System",
+  SYSTEM_SUBTITLE: "Field Operations Monitoring",
   LOGO_URL: "/logo.png",
 
   // ── Assessment questions ──────────────────────────────────────
