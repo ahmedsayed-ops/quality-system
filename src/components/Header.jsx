@@ -16,11 +16,15 @@ export default function Header({ activePage, setPage }) {
           {/* ── Brand / Logo ─────────────────── */}
           <div className="flex items-center gap-3 min-w-0">
             {config.LOGO_URL ? (
-              <img
-                src={config.LOGO_URL}
-                alt={`${config.COMPANY_NAME} logo`}
-                className="h-8 sm:h-9 w-auto object-contain flex-shrink-0"
-              />
+              <img 
+  src={config.LOGO_URL} 
+  style={{ 
+    height: "60px",
+    background: "white",
+    padding: "6px",
+    borderRadius: "8px"
+  }} 
+/>
             ) : (
               /* Default icon shown when LOGO_URL is null */
               <div className="h-9 w-9 rounded-xl bg-white/15 border border-white/20
