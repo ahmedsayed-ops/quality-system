@@ -15,7 +15,7 @@ const config = {
   // (place file in /public) or a remote URL. null = icon logo.
   COMPANY_NAME: "Your Company",
   SYSTEM_TITLE: "Quality Visit Tracking System",
-  LOGO_URL:     null,
+  LOGO_URL: "/logo.png",
 
   // ── Assessment questions ──────────────────────────────────────
   // key   = exact POST field name sent to Apps Script (q1–q4)
